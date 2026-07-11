@@ -179,7 +179,7 @@ jupyter lab
 
 ## 🤝 Contributing
 
-This is a personal learning repository, but suggestions and improvements are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+This is a personal learning repository, but suggestions and improvements are welcome! See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
 
 ---
 
