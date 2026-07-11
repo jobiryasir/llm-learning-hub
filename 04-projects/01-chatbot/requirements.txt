@@ -1,0 +1,2 @@
+# Chatbot requirements
+# Add specific dependencies here

@@ -1,0 +1,2 @@
+# Code assistant requirements
+# Add specific dependencies here

@@ -1,0 +1,2 @@
+# Research assistant requirements
+# Add specific dependencies here
