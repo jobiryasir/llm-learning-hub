@@ -48,7 +48,3 @@ python-dotenv>=1.0.0
 tqdm>=4.65.0
 rich>=13.0.0
 pydantic>=2.0.0
-
-# Experiment Tracking (optional)
-# wandb
-# mlflow
