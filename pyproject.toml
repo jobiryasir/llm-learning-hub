@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-learning-hub"
+version = "0.1.0"
+description = "A comprehensive learning repository for Large Language Models"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["llm", "nlp", "machine-learning", "deep-learning", "transformers"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/llm-learning-hub"
+Repository = "https://github.com/YOUR_USERNAME/llm-learning-hub"
+Issues = "https://github.com/YOUR_USERNAME/llm-learning-hub/issues"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    "*.ipynb",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "D"]
+ignore = ["D100", "D104"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
