@@ -12,43 +12,34 @@
 
 ## 📚 Repository Structure
 
-```text
-llm-learning-hub/
-├── 01-foundations/             # [ML & DL fundamentals](01-foundations/)
-│   ├── 01-mathematics-for-ml/  # [Linear algebra, calculus, probability](01-foundations/01-mathematics-for-ml/)
-│   ├── 02-deep-learning-basics/# [Neural networks, backprop, optimization](01-foundations/02-deep-learning-basics/)
-│   └── 03-transformers/        # [Attention mechanism, architecture](01-foundations/03-transformers/)
-│
-├── 02-llm-science/             # [Core LLM theory & training](02-llm-science/)
-│   ├── 01-tokenization/        # [BPE, WordPiece, SentencePiece](02-llm-science/01-tokenization/)
-│   ├── 02-pretraining/         # [Data pipelines, scaling laws](02-llm-science/02-pretraining/)
-│   ├── 03-fine-tuning/         # [SFT, LoRA, QLoRA, instruction tuning](02-llm-science/03-fine-tuning/)
-│   ├── 04-alignment/           # [RLHF, DPO, GRPO, preference](02-llm-science/04-alignment/)
-│   └── 05-evaluation/          # [Benchmarks, LLM-as-a-Judge, safety](02-llm-science/05-evaluation/)
-│
-├── 03-llm-engineering/         # [Building production systems](03-llm-engineering/)
-│   ├── 01-rag-systems/         # [Retrieval-Augmented Generation](03-llm-engineering/01-rag-systems/)
-│   ├── 02-agents/              # [AI agents, tool use, multi-agent](03-llm-engineering/02-agents/)
-│   ├── 03-prompt-engineering/  # [Prompt patterns, CoT, ToT](03-llm-engineering/03-prompt-engineering/)
-│   └── 04-deployment/          # [Quantization, inference, serving](03-llm-engineering/04-deployment/)
-│
-├── 04-projects/                # [End-to-end projects](04-projects/)
-│   ├── 01-chatbot/             # [Production chatbot with RAG](04-projects/01-chatbot/)
-│   ├── 02-code-assistant/      # [AI-powered coding assistant](04-projects/02-code-assistant/)
-│   └── 03-research-assistant/  # [Academic paper analysis tool](04-projects/03-research-assistant/)
-│
-├── 05-resources/               # [Curated learning materials](05-resources/)
-│   ├── papers.md               # [Essential research papers](05-resources/papers.md)
-│   ├── courses.md              # [Recommended courses & books](05-resources/courses.md)
-│   ├── tools.md                # [Tools & frameworks reference](05-resources/tools.md)
-│   └── roadmap.md              # [Learning roadmap](05-resources/roadmap.md)
-│
-├── scripts/                    # [Utility scripts](scripts/)
-│   ├── setup.sh                # [Environment setup](scripts/setup.sh)
-│   └── download-datasets.sh    # [Dataset downloads](scripts/download-datasets.sh)
-│
-├── requirements.txt            # [Python dependencies](requirements.txt)
-└── LICENSE                     # [MIT License](LICENSE)
+- [llm-learning-hub/](https://github.com/jobiryasir/llm-learning-hub)
+  - [01-foundations/](01-foundations/)
+    - [01-mathematics-for-ml/](01-foundations/01-mathematics-for-ml/) - *Linear algebra, calculus, probability*
+    - [02-deep-learning-basics/](01-foundations/02-deep-learning-basics/) - *Neural networks, backprop, optimization*
+    - [03-transformers/](01-foundations/03-transformers/) - *Attention mechanism, architecture*
+  - [02-llm-science/](02-llm-science/)
+    - [01-tokenization/](02-llm-science/01-tokenization/) - *BPE, WordPiece, SentencePiece*
+    - [02-pretraining/](02-llm-science/02-pretraining/) - *Data pipelines, scaling laws*
+    - [03-fine-tuning/](02-llm-science/03-fine-tuning/) - *SFT, LoRA, QLoRA*
+    - [04-alignment/](02-llm-science/04-alignment/) - *RLHF, DPO, GRPO*
+    - [05-evaluation/](02-llm-science/05-evaluation/) - *Benchmarks, LLM-as-a-Judge*
+  - [03-llm-engineering/](03-llm-engineering/)
+    - [01-rag-systems/](03-llm-engineering/01-rag-systems/) - *Retrieval-Augmented Generation*
+    - [02-agents/](03-llm-engineering/02-agents/) - *AI agents, tool use*
+    - [03-prompt-engineering/](03-llm-engineering/03-prompt-engineering/) - *Prompt patterns, CoT*
+    - [04-deployment/](03-llm-engineering/04-deployment/) - *Quantization, inference*
+  - [04-projects/](04-projects/)
+    - [01-chatbot/](04-projects/01-chatbot/) - *Production chatbot*
+    - [02-code-assistant/](04-projects/02-code-assistant/) - *Coding assistant*
+    - [03-research-assistant/](04-projects/03-research-assistant/) - *Paper analysis tool*
+  - [05-resources/](05-resources/)
+    - [papers.md](05-resources/papers.md) - *Research papers*
+    - [courses.md](05-resources/courses.md) - *Courses & books*
+  - [scripts/](scripts/)
+    - [setup.sh](scripts/setup.sh)
+    - [download-datasets.sh](scripts/download-datasets.sh)
+  - [requirements.txt](requirements.txt)
+  - [LICENSE](LICENSE)
 
 ---
 
