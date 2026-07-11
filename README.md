@@ -53,37 +53,9 @@ llm-learning-hub/
 
 ---
 
-## 🗺️ Learning Roadmap
+## 🚀 Quick Start (5 Minutes)
 
-### Phase 1: Foundations (Weeks 1-4)
-- [ ] Mathematics for ML (linear algebra, calculus, probability)
-- [ ] Deep learning basics (neural networks, backpropagation)
-- [ ] Transformer architecture from scratch
-
-### Phase 2: LLM Science (Weeks 5-10)
-- [ ] Tokenization & text preprocessing
-- [ ] Pretraining fundamentals & scaling laws
-- [ ] Fine-tuning with LoRA/QLoRA
-- [ ] Alignment techniques (DPO, GRPO)
-- [ ] Evaluation methodologies
-
-### Phase 3: Engineering (Weeks 11-16)
-- [ ] Building RAG systems
-- [ ] Developing AI agents
-- [ ] Advanced prompt engineering
-- [ ] Model deployment & optimization
-
-### Phase 4: Projects (Weeks 17-20)
-- [ ] Build a domain-specific chatbot
-- [ ] Create a code assistant
-- [ ] Develop a research paper analyzer
-
-> 📖 **Full roadmap:** [05-resources/roadmap.md](05-resources/roadmap.md)
-
----
-
-## 🚀 Quick Start
-
+### Step 1: Clone & Setup
 ```bash
 # Clone the repository
 git clone https://github.com/jobiryasir/llm-learning-hub.git
@@ -93,9 +65,73 @@ cd llm-learning-hub
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-# Or use the setup script
-bash scripts/setup.sh
+### Step 2: Verify Installation
+```bash
+# Check everything works
+python -c "import torch; print('PyTorch:', torch.__version__)"
+python -c "import transformers; print('Transformers:', transformers.__version__)"
+
+# Start Jupyter
+jupyter lab
+```
+
+### Step 3: Start Learning! 🎯
+
+**👉 Open your first notebook:**
+```bash
+# In Jupyter, navigate to:
+01-foundations/03-transformers/02-transformer-from-scratch.ipynb
+```
+
+---
+
+## 🗺️ What to Do After Setup
+
+### 🔰 Beginner Path (No ML Background)
+
+| Week | Topic | Notebook |
+|------|-------|----------|
+| 1-2 | **Math Basics** | Review `01-foundations/01-mathematics-for-ml/` |
+| 3-4 | **Deep Learning** | Run `01-foundations/02-deep-learning-basics/notebooks/` |
+| 5-6 | **Transformers** | Complete `01-foundations/03-transformers/02-transformer-from-scratch.ipynb` |
+| 7-8 | **Tokenization** | Implement `02-llm-science/01-tokenization/01-bpe-from-scratch.ipynb` |
+| 9-10 | **Fine-tuning** | Run `02-llm-science/03-fine-tuning/01-lora-finetuning.ipynb` |
+| 11-12 | **RAG Systems** | Build `03-llm-engineering/01-rag-systems/01-basic-rag.ipynb` |
+| 13-14 | **Agents** | Create `03-llm-engineering/02-agents/01-react-agent.ipynb` |
+| 15-20 | **Projects** | Complete any project in `04-projects/` |
+
+### 🚀 Intermediate Path (Knows ML Basics)
+
+Skip `01-foundations` and start directly from:
+
+```bash
+# Week 1-2: Transformers from scratch
+01-foundations/03-transformers/02-transformer-from-scratch.ipynb
+
+# Week 3-4: Fine-tuning with LoRA
+02-llm-science/03-fine-tuning/01-lora-finetuning.ipynb
+
+# Week 5-6: RAG Systems
+03-llm-engineering/01-rag-systems/01-basic-rag.ipynb
+
+# Week 7+: Projects
+04-projects/01-chatbot/
+```
+
+### 🎯 Quick Start (Today!)
+
+Want to see something cool **right now**?
+
+```bash
+# 1. Start Jupyter
+jupyter lab
+
+# 2. Open this notebook and run all cells:
+# 01-foundations/03-transformers/02-transformer-from-scratch.ipynb
+
+# 3. You'll build a complete GPT model from scratch!
 ```
 
 ---
@@ -123,15 +159,18 @@ bash scripts/setup.sh
 
 ---
 
-## 📊 Progress Tracker
+## 🎯 Milestones
 
-| Section | Notebooks | Status |
-|---------|-----------|--------|
-| 01-foundations | 5 | 🟡 In Progress |
-| 02-llm-science | 10 | ⚪ Not Started |
-| 03-llm-engineering | 12 | ⚪ Not Started |
-| 04-projects | 3 | ⚪ Not Started |
+| Milestone | Check |
+|-----------|-------|
+| ⬜ Build transformer from scratch | Week 4 |
+| ⬜ Fine-tune a 7B model | Week 8 |
+| ⬜ Train with DPO/GRPO | Week 9 |
+| ⬜ Build working RAG system | Week 11 |
+| ⬜ Deploy a model to production | Week 16 |
+| ⬜ Complete 3 end-to-end projects | Week 20 |
 
+---
 ---
 
 ## 🤝 Contributing
