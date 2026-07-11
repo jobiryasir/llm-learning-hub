@@ -1,0 +1,39 @@
+name: llm-learning-hub
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pytorch>=2.0.0
+  - pytorch-cuda=12.1
+  - pip:
+    - transformers>=4.40.0
+    - datasets>=2.14.0
+    - accelerate>=0.25.0
+    - peft>=0.8.0
+    - trl>=0.8.0
+    - bitsandbytes>=0.43.0
+    - unsloth
+    - langchain>=0.1.0
+    - langchain-community
+    - langchain-huggingface
+    - llama-index>=0.10.0
+    - chromadb>=0.4.0
+    - qdrant-client
+    - vllm>=0.4.0
+    - llama-cpp-python
+    - smolagents
+    - crewai
+    - lm-eval>=0.4.0
+    - plotly>=5.15.0
+    - python-dotenv>=1.0.0
+    - rich>=13.0.0
+    - pydantic>=2.0.0
