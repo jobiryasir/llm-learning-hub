@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  llm-hub:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+      - llm-hub-data:/app/data
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    command: >
+      sh -c "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root 
+      --NotebookApp.token='' --NotebookApp.password=''"
+
+  # Optional: Vector database for RAG experiments
+  chroma:
+    image: chromadb/chroma:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma-data:/chroma/chroma
+
+volumes:
+  llm-hub-data:
+  chroma-data:
