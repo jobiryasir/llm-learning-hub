@@ -1,0 +1,30 @@
+name: Generate Docs
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**.md'
+      - '**.ipynb'
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        pip install jupyter nbconvert
+
+    - name: Convert notebooks to HTML
+      run: |
+        mkdir -p docs/notebooks
+        find . -name "*.ipynb" -not -path "*/.ipynb_checkpoints/*" | while read nb; do
+          jupyter nbconvert --to html "$nb" --output-dir docs/notebooks/ || true
+        done
