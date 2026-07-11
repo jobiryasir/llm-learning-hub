@@ -86,7 +86,7 @@ llm-learning-hub/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/llm-learning-hub.git
+git clone https://github.com/jobiryasir/llm-learning-hub.git
 cd llm-learning-hub
 
 # Set up environment
