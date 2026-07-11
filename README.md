@@ -53,6 +53,20 @@ llm-learning-hub/
 
 ---
 
+### 🔰 Beginner Path (No ML Background)
+
+| Week | Topic | Notebook / Path |
+| :--- | :--- | :--- |
+| 1-2 | **Math Basics** | [01-mathematics-for-ml/](01-foundations/01-mathematics-for-ml/) |
+| 3-4 | **Deep Learning** | [02-deep-learning-basics/](01-foundations/02-deep-learning-basics/) |
+| 5-6 | **Transformers** | [transformer-from-scratch.ipynb](01-foundations/03-transformers/02-transformer-from-scratch.ipynb) |
+| 7-8 | **Tokenization** | [01-bpe-from-scratch.ipynb](02-llm-science/01-tokenization/01-bpe-from-scratch.ipynb) |
+| 9-10 | **Fine-tuning** | [01-lora-finetuning.ipynb](02-llm-science/03-fine-tuning/01-lora-finetuning.ipynb) |
+| 11-12 | **RAG Systems** | [01-basic-rag.ipynb](03-llm-engineering/01-rag-systems/01-basic-rag.ipynb) |
+| 13-14 | **Agents** | [01-react-agent.ipynb](03-llm-engineering/02-agents/01-react-agent.ipynb) |
+| 15-20 | **Projects** | [04-projects/](04-projects/) |
+---
+
 ## 🚀 Quick Start (5 Minutes)
 
 ### Step 1: Clone & Setup
