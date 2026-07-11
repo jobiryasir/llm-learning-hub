@@ -1,7 +1,7 @@
 # Core ML/DL
-torch>=2.0.0
-torchvision
-torchaudio
+torch>=2.5.0
+torchvision>=0.20.0
+torchaudio>=2.5.0
 transformers>=4.40.0
 datasets>=2.14.0
 accelerate>=0.25.0
@@ -20,9 +20,9 @@ llama-index>=0.10.0
 chromadb>=0.4.0
 qdrant-client
 
-# Inference & Serving
-vllm>=0.4.0
-llama-cpp-python
+# Inference & Serving (GPU required - install separately if needed)
+# vllm>=0.4.0  # Uncomment if you have CUDA GPU
+# llama-cpp-python  # Uncomment for local inference
 
 # Agents
 smolagents
@@ -48,3 +48,7 @@ python-dotenv>=1.0.0
 tqdm>=4.65.0
 rich>=13.0.0
 pydantic>=2.0.0
+
+# Experiment Tracking (optional)
+# wandb
+# mlflow
